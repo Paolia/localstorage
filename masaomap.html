@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canycom Overseas Sales Map</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/sanitize.css" />
+    <link rel="stylesheet" type="text/css" href="css/masaomap.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- ↑Google Chart読み込み -->
+</head>
+
+<body>
+    <header>
+        <img id="cany_logo" src="img/logo.png" alt="CANYCOM">
+        <p>Canycom Overseas Sales Map</p>
+    </header>
+    <main>
+        <div id="link">
+            <button type="button" id="cmx1810">CMX1810</button>
+            <button type="button" id="cmx2408">CMX2408</button>
+            <button type="button" id="s120">S120</button>
+            <button type="button" id="s300">S300</button>
+            <button type="button" id="sc75">SC75</button>
+            <button type="button" id="back" onclick="location.href='index.html'">Backto Top</button>
+        </div>
+    <!-- マップ描画領域 -->
+    <section id="img_area">
+    <div id="prod_img"></div>
+    <div id="regions_div"></div>
+    </section>
+    </main>
+    <footer>
+        <p>&copy 2024 Tamio Kuratomi / CanyCom, Inc.</p>
+    </footer>
+    <script type="text/javascript" src="js/masaomap.js">
+
+    </script>
+</body>
+
+</html>

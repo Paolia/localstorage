@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canycom Overseas Sales</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/sanitize.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <img id="cany_logo" src="img/logo.png" alt="CANYCOM">
+        <p>Canycom Overseas Sales</p>
+    </header>
+<main>
+    <h1 id="page_title">Masao and Punda Lines</h1>
+    <div id="inputBtn">    
+    <label for="fileinput">Select a CSV file: </label> 
+    <input type="file" id="fileinput" accept=".csv, .txt, .json"/>
+    <input type="button" id="clear" value="Clear Local Memory"/>
+    </div>
+    <div id="link">
+        <button type="button" id="map" onclick="location.href='masaomap.html'">Map Chart</button>
+        <!-- <button type="button" id="euro_prod" onclick="location.href='masaograph.html'">Graph</button>-->
+        <button type="button" id="euro_prod" onclick="location.href='mapchart.html'">Wine</button>
+    </div>
+    <div id="check_read"></div>
+</main>
+    <footer>
+        <p>&copy 2024 Tamio Kuratomi / CanyCom, Inc.</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

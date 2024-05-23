@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Production Map</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/sanitize.css" />
+    <link rel="stylesheet" type="text/css" href="css/mapchart.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- ↑Google Chart読み込み -->
+</head>
+
+<body>
+    <header>
+        <p>Wine Production Map</p>
+    </header>
+    <main>
+        <div id="link">
+            <button type="button" id="quant">Quantity(t) - World</button>
+            <button type="button" id="quant_euro">Quantity(t) - Europe</button>
+            <button type="button" id="usd_value">Value(USD) - World</button>
+            <button type="button" id="usd_value_euro">Value(USD) - Europe</button>
+            <button type="button" id="graph" onclick="location.href='graph.html'">Main Producers</button>
+            <button type="button" id="back" onclick="location.href='index.html'">Backto Top</button>
+        </div>
+    <!-- マップ描画領域 -->
+    <div id="regions_div"></div>
+    </main>
+    <footer>
+        <p>&copy 2024 Tamio Kuratomi</p>
+    </footer>
+    <script type="text/javascript" src="js/mapchart.js">
+
+    </script>
+</body>
+
+</html>

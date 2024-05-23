@@ -1,0 +1,26 @@
+header {
+
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+
+}
+
+button {
+    height: 30px;
+    width: 200px;
+    background-color: #222;
+    color: #ccc;
+    font-size: 24px;
+    border-radius: 6px;
+}
+
+textarea {
+    background-color: #eee;
+    border: #aaa solid 2px;
+}
